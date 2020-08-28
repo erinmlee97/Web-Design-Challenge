@@ -1,0 +1,44 @@
+
+a.navbar-brand{
+    margin-left: 0px;
+    font-size: 25px;
+    padding: 10px;
+    font-family: monospace;
+}
+
+h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+h3{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: monospace;
+    font-weight: bold; 
+}
+
+#p_data{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.img-thumbnail{
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+
+@media(max-width:767px){
+    .navbar.bg-light{
+        background-color:  #28a745!important;    
+    }
+
+    .navbar-collapse{
+        background-color: #f8f9fa;
+    }
+    .navbar{
+        padding:inherit;
+    }
+}
